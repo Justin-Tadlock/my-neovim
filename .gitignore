@@ -6,3 +6,7 @@ debug
 foo.*
 *.log
 data
+
+# We don't want to keep the js-debugger or the release files for it
+**/js-debug
+**/*.tar.gz
